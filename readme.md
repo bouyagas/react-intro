@@ -17,7 +17,7 @@
 
 ---
 
-## Framing (5 minutes / 0:05)
+## Framing (5 minutes)
 
 ### What is ReactJS?
 
@@ -53,7 +53,9 @@ React can be used agnostically throughout your stack. It's role is just to use d
 
 ---
 
-## Initial Setup (20 minutes / 0:25)
+## Initial Setup (20 minutes)
+
+- Have students install `create-react-app` - `npm install -g create-react-app`
 
 In order to create a new project and to get our development environment setup, we are going to use Facebook's dev team's tool: `create-react-app`
 
@@ -101,7 +103,7 @@ If you finish up early, review and play with the code in `/src/App.js`, `/src/in
 
 ## Components
 
-### You Do: Identifying Components (10 minutes / 0:35)
+### You Do: Identifying Components (10 minutes)
 
 > 5 minutes exercise. 5 minutes review.
 
@@ -118,7 +120,7 @@ Take a picture of your work and Slack it to the classroom channel before the exe
 
 ---
 
-### I Do: Hello World - A Very Basic Component (10 minutes / 0:45)
+### I Do: Hello World - A Very Basic Component (10 minutes)
 
 > No need to follow along with this Hello World example. You will have the chance to implement this yourself when you get to the first Blog exercise.
 
@@ -221,7 +223,7 @@ What language is `<Hello />` written in? **JSX.**
 
 ---
 
-### Hello World: A Little Dynamic (10 minutes / 0:55)
+### Hello World: A Little Dynamic (10 minutes)
 
 Our `Hello` component isn't too helpful. Let's make it more interesting.
 * Rather than simply display "Hello world", let's display a greeting to the user.
@@ -294,11 +296,11 @@ class Hello extends Component {
 
 ---
 
-## Break (10 minutes / 1:05)
+## Break (10 minutes)
 
 ---
 
-### Exercise: A Blog Post (20 minutes / 1:25)
+### Exercise: A Blog Post (20 minutes)
 
 > 15 minutes exercise. 5 minutes review.
 
@@ -315,7 +317,7 @@ Let's have some practice creating a React component from scratch. How about a bl
 
 ---
 
-### Nested Components (5 minutes / 1:30)
+### Nested Components (5 minutes)
 
 **Q:** What problems did you encounter when trying to add multiple comments to your Post?
 
@@ -379,7 +381,7 @@ export default Post;
 
 ---
 
-## Exercise: Add Nested Comments To Blog (15 minutes / 1:45)
+## Exercise: Add Nested Comments To Blog (15 minutes)
 
 > 10 minutes exercise. 5 minutes review.
 
@@ -395,11 +397,11 @@ export default Post;
 
 ---
 
-## Break (10 minutes / 1:55)
+## Break (10 minutes)
 
 ---
 
-## State (10 minutes / 2:05)
+## State (10 minutes)
 
 So we know about React properties, and how they relate to our component's data.
 * The thing is, `props` represent data that will be the same every time our component is rendered. What about data in our application that may change depending on user action?
@@ -484,7 +486,7 @@ Whenever we run `.setState`, our component "diff's" the current DOM, and compare
 
 ---
 
-### Exercise: Implement State (20 minutes / 2:25)
+### Exercise: Implement State (20 minutes)
 
 > 15 minutes exercise. 5 minutes review.
 
@@ -511,7 +513,7 @@ Make it so that the post body changes as you type it into the form. This will ma
 
 ---
 
-## Closing (5 minutes / 2:30)
+## Closing (5 minutes)
 
 ### What's Next?
 
